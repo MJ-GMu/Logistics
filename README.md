@@ -28,9 +28,7 @@ VARCHAR(100).
 
 **- carrier_type**: tipo de servicio (urgente, normal, low cost). Tipo de
 dato: VARCHAR(50)
-
-
-
+<br>
 **dim_customer**: tabla de dimensiones de los clientes, que contiene las
 siguientes columnas:
 
