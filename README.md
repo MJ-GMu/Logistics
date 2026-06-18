@@ -28,7 +28,9 @@ VARCHAR(100).
 
 **- carrier_type**: tipo de servicio (urgente, normal, low cost). Tipo de
 dato: VARCHAR(50)
+
 <br>
+
 **dim_customer**: tabla de dimensiones de los clientes, que contiene las
 siguientes columnas:
 
@@ -43,6 +45,7 @@ dato: INT
 
 **- customer_country**: país. Tipo de dato: VARCHAR(50)
 
+<br>
 
 **dim_data**: tabla de dimensiones que contiene todas las fechas de tres
 años
@@ -51,6 +54,7 @@ años
 
 **- full_date**: fecha en formato YYYY-MM-DD. Tipo de dato: DATE
 
+<br>
 
 **dim_destinations**: tabla de dimensiones del destino de los envíos, que
 contiene las siguientes columnas:
@@ -64,6 +68,7 @@ dato: INT
 
 **- region**: región dentro del país. Tipo de dato: VARCHAR(50)
 
+<br>
 
 **fact_shipments**: tabla de hechos de los envíos, que contiene las
 siguientes columnas:
