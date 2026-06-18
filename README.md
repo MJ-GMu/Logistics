@@ -30,6 +30,7 @@ VARCHAR(100).
 dato: VARCHAR(50)
 
 
+
 **dim_customer**: tabla de dimensiones de los clientes, que contiene las
 siguientes columnas:
 
